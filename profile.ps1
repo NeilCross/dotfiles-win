@@ -1,5 +1,12 @@
 ﻿# Init Script for PowerShell
 
+# Install modules
+Import-Module PSReadLine
+Import-Module posh-git
+
+# custom aliases
+function config {& git --git-dir=$HOME/.cfg/ --work-tree=$HOME $args }
+
 # Pre assign the hooks so the first run of cmder gets a working prompt.
 [ScriptBlock]$PrePrompt = {}
 [ScriptBlock]$PostPrompt = {}
