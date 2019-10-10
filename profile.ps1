@@ -1,7 +1,6 @@
-﻿# Init Script for PowerShell
+# Init Script for PowerShell
 
 # Install modules
-Import-Module PSReadLine
 Import-Module posh-git
 
 # custom aliases
