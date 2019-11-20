@@ -6,6 +6,6 @@ config pull
 config checkout master
 config config --local status.showUntrackedFiles no
 
-install-module posh-git
+install-module posh-git -Scope CurrentUser
 
 Write-Host "function config { git --git-dir="`$HOME/.cfg/" --work-tree="`$HOME" $args }"
