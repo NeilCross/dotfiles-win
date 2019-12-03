@@ -1,3 +1,6 @@
+[user]
+    name = Neil Cross
+    email = neil.cross@dragonflytechnologies.com
 [diff]
     tool = bc3
 [difftool]
