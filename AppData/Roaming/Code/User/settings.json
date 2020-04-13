@@ -1,3 +1,5 @@
 {
-    "window.title": "${rootName}${separator}${appName}"
+    "window.title": "${rootName}${separator}${appName}",
+    "window.zoomLevel": 0,
+    "glsl-canvas.useCompactFormatter": false
 }

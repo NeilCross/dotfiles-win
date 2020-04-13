@@ -5,6 +5,7 @@ Import-Module posh-git
 
 # custom aliases
 function config {& git --git-dir=$HOME/.cfg/ --work-tree=$HOME $args }
+function dwr {& dotnet watch run $args }
 
 # Pre assign the hooks so the first run of cmder gets a working prompt.
 [ScriptBlock]$PrePrompt = {}
