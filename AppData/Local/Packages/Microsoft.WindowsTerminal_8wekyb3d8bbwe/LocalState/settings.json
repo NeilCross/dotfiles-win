@@ -11,7 +11,8 @@
     "defaults": {
       // Put settings here that you want to apply to all profiles
       "acrylicOpacity": 0.85,
-      "useAcrylic": true
+      "useAcrylic": true,
+      "padding": "40,40,40,40"
     },
     "list": [
       {
@@ -56,11 +57,17 @@
   // To unbind a default keybinding, set the command to "unbound"
   "keybindings": [
     {
-      "command": "splitVertical",
+      "command": {
+        "action": "splitPane",
+        "split": "vertical"
+      },
       "keys": [ "alt+shift+|" ]
     },
     {
-      "command": "splitHorizontal",
+      "command": {
+        "action": "splitPane",
+        "split": "horizontal"
+      },
       "keys": [ "alt+shift+-" ]
     },
     {
