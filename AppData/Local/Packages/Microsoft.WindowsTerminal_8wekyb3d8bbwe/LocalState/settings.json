@@ -12,7 +12,9 @@
       // Put settings here that you want to apply to all profiles
       "acrylicOpacity": 0.85,
       "useAcrylic": true,
-      "padding": "40,40,40,40"
+      "padding": "40,30,30,30",
+      "fontFace": "Consolas Nerd Font Conplete Mono"
+      //"fontFace": "Cascadia Mono PL"
     },
     "list": [
       {
