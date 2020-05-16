@@ -13,8 +13,7 @@
       "acrylicOpacity": 0.85,
       "useAcrylic": true,
       "padding": "40,30,30,30",
-      "fontFace": "Consolas Nerd Font Conplete Mono"
-      //"fontFace": "Cascadia Mono PL"
+      "fontFace": "Consolas NF" //"Cascadia Mono PL"
     },
     "list": [
       {

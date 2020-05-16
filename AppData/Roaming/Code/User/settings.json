@@ -1,5 +1,8 @@
 {
     "window.title": "${rootName}${separator}${appName}",
     "window.zoomLevel": 0,
-    "glsl-canvas.useCompactFormatter": false
+    "glsl-canvas.useCompactFormatter": false,
+    "terminal.external.windowsExec": "wt.exe",
+    "terminal.integrated.shell.windows": "C:\\Program Files\\PowerShell\\7\\pwsh.exe",
+    "terminal.integrated.fontFamily": "'Cascadia Mono PL', Consolas, 'Courier New', monospace"
 }
