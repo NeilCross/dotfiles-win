@@ -1,0 +1,102 @@
+{
+  "devices": [
+    {
+      "device-id": "KGN3400#5\u0026304511df\u00264\u0026UID268_3440_1440_{743FB105-63FA-42A0-A893-33F686DF972D}",
+      "active-zoneset": {
+        "uuid": "{E3584471-5D70-40CB-AFEA-8655414713F4}",
+        "type": "custom"
+      },
+      "editor-show-spacing": true,
+      "editor-spacing": 16,
+      "editor-zone-count": 3,
+      "editor-sensitivity-radius": 20
+    },
+    {
+      "device-id": "LOCALDISPLAY_3440_1440_{743FB105-63FA-42A0-A893-33F686DF972D}",
+      "active-zoneset": {
+        "uuid": "{F67F9959-EC8D-4557-B76C-D3AEA25ED165}",
+        "type": "priority-grid"
+      },
+      "editor-show-spacing": true,
+      "editor-spacing": 16,
+      "editor-zone-count": 3,
+      "editor-sensitivity-radius": 20
+    }
+  ],
+  "custom-zone-sets": [
+    {
+      "uuid": "{E3584471-5D70-40CB-AFEA-8655414713F4}",
+      "name": "Daddy",
+      "type": "grid",
+      "info": {
+        "rows": 2,
+        "columns": 2,
+        "rows-percentage": [
+          5022,
+          4978
+        ],
+        "columns-percentage": [
+          6798,
+          3202
+        ],
+        "cell-child-map": [
+          [
+            0,
+            1
+          ],
+          [
+            0,
+            2
+          ]
+        ],
+        "show-spacing": true,
+        "spacing": 16,
+        "sensitivity-radius": 20
+      }
+    }
+  ],
+  "templates": [
+    {
+      "type": "blank",
+      "show-spacing": false,
+      "spacing": 0,
+      "zone-count": 0,
+      "sensitivity-radius": 0
+    },
+    {
+      "type": "focus",
+      "show-spacing": false,
+      "spacing": 0,
+      "zone-count": 3,
+      "sensitivity-radius": 20
+    },
+    {
+      "type": "columns",
+      "show-spacing": true,
+      "spacing": 16,
+      "zone-count": 2,
+      "sensitivity-radius": 20
+    },
+    {
+      "type": "rows",
+      "show-spacing": true,
+      "spacing": 16,
+      "zone-count": 3,
+      "sensitivity-radius": 20
+    },
+    {
+      "type": "grid",
+      "show-spacing": true,
+      "spacing": 16,
+      "zone-count": 3,
+      "sensitivity-radius": 20
+    },
+    {
+      "type": "priority-grid",
+      "show-spacing": true,
+      "spacing": 16,
+      "zone-count": 3,
+      "sensitivity-radius": 20
+    }
+  ]
+}
