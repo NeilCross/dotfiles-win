@@ -20,3 +20,6 @@
     mt = mergetool
 [rerere]
 	enabled = true
+[core]
+	editor = code --wait
+	autocrlf = input
