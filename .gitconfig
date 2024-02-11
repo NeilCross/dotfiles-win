@@ -1,25 +1,30 @@
 [user]
 	name = Neil Cross
-	email = neil.cross@dragonflytechnologies.com
+	email = neil@neilcross.net
+[rerere]
+	enabled = true
+[core]
+	editor = code --wait
+	autocrlf = input
+
 [diff]
-    tool = bc3
+    tool = vscode
 [difftool]
     prompt = false
 [difftool "bc3"]
     cmd = \"c:/program files (x86)/beyond compare 3/bcomp.exe\" \"$LOCAL\" \"$REMOTE\"
+[difftool "vscode"]
+    cmd = code --wait --diff $LOCAL $REMOTE
 [merge]
-    tool = bc3
+    tool = vscode
 [mergetool]
     prompt = false
     keepBackup = false
 [mergetool "bc3"]
     cmd = \"c:/program files (x86)/beyond compare 3/bcomp.exe\" \"$LOCAL\" \"$REMOTE\" \"$BASE\" \"$MERGED\"
     trustExitCode = true
+[mergetool "vscode"]
+    cmd = code --wait --merge $LOCAL $REMOTE $BASE $MERGED
 [alias]
     dt = difftool
     mt = mergetool
-[rerere]
-	enabled = true
-[core]
-	editor = code --wait
-	autocrlf = input
